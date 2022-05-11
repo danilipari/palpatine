@@ -1,9 +1,9 @@
 import {createApp} from 'vue'
-import BootstrapVue3 from 'bootstrap-vue-3'
 import App from "./App.vue";
+import BootstrapVue3 from 'bootstrap-vue-3'
 import { routes } from "./router/index";
-import store from "./store/index";
 import { createRouter, createWebHistory } from "vue-router";
+import store from "./store/index";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue-3/dist/bootstrap-vue-3.css"

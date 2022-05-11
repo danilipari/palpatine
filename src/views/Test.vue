@@ -1,7 +1,8 @@
 <template>
+  <router-link :to="'/'" class="text-dark">Home</router-link>
   <HelloWorld />
 
-  <b-alert show>Default Alert</b-alert>
+  <b-alert show>Test</b-alert>
 </template>
 
 <script setup>
